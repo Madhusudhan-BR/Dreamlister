@@ -18,6 +18,7 @@
 		9B1453311EE805220083C8A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B1453301EE805220083C8A1 /* Main.storyboard */; };
 		9B1453351EE84C460083C8A1 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1453341EE84C460083C8A1 /* Views.swift */; };
 		9B1453371EE859980083C8A1 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1453361EE859980083C8A1 /* ItemCell.swift */; };
+		9B1453391EE884C10083C8A1 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1453381EE884C10083C8A1 /* DetailsViewController.swift */; };
 		9BB3F7F51EE7EA2700E6007D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB3F7F41EE7EA2700E6007D /* AppDelegate.swift */; };
 		9BB3F7F71EE7EA2700E6007D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB3F7F61EE7EA2700E6007D /* ViewController.swift */; };
 		9BB3F7FD1EE7EA2700E6007D /* DreamsCenter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BB3F7FB1EE7EA2700E6007D /* DreamsCenter.xcdatamodeld */; };
@@ -56,6 +57,7 @@
 		9B1453301EE805220083C8A1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9B1453341EE84C460083C8A1 /* Views.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
 		9B1453361EE859980083C8A1 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		9B1453381EE884C10083C8A1 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		9BB3F7F11EE7EA2700E6007D /* DreamsCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamsCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB3F7F41EE7EA2700E6007D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BB3F7F61EE7EA2700E6007D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				9BB3F7F61EE7EA2700E6007D /* ViewController.swift */,
+				9B1453381EE884C10083C8A1 /* DetailsViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 				9B14532D1EE7FD600083C8A1 /* ItemType+CoreDataProperties.swift in Sources */,
 				9B1453351EE84C460083C8A1 /* Views.swift in Sources */,
 				9B1453291EE7FD600083C8A1 /* Store+CoreDataProperties.swift in Sources */,
+				9B1453391EE884C10083C8A1 /* DetailsViewController.swift in Sources */,
 				9BB3F7F51EE7EA2700E6007D /* AppDelegate.swift in Sources */,
 				9B1453271EE7FD600083C8A1 /* Item+CoreDataProperties.swift in Sources */,
 			);
@@ -490,6 +494,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.madhusudhanbr.DreamsCenter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -504,6 +509,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.madhusudhanbr.DreamsCenter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
